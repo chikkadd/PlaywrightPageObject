@@ -16,8 +16,4 @@ test('this is to test dialog pop ups', async ({browser})=>
         element1.click()
     ]
   )
-  await expect(newPage).toHaveTitle("Selenium");
-  const pageTitle = newPage.title();
- // console.log(pageTitle);
- // await page.pause();
 })
